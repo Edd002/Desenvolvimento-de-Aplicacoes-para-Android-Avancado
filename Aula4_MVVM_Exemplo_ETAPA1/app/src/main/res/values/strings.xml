@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aula4_MVVM_Exemplo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="format_quantidade">Quantidade: %s</string>
+    <string name="format_dinheiro">Valor da compra: R$%.2f</string>
+</resources>

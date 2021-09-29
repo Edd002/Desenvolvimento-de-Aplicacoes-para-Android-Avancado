@@ -1,0 +1,2 @@
+rootProject.name = "Aula4_MVVM_Exemplo"
+include ':app'

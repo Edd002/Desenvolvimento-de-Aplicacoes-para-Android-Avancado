@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="yearCountryViewModel"
+            type="com.example.app.trabalhofinal_worldwidepublicholiday.RetrofitViewModel" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/textViewYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:text="@string/select_year"
+                android:textAllCaps="true"
+                android:textColor="@color/custom_dark_blue"
+                android:textColorHighlight="@color/custom_blue"
+                android:textColorLink="@color/custom_blue"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinnerYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:textColor="@color/custom_dark_blue" />
+
+            <TextView
+                android:id="@+id/textViewCountryCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:text="@string/select_country"
+                android:textAllCaps="true"
+                android:textColor="@color/custom_dark_blue"
+                android:textColorHighlight="@color/custom_blue"
+                android:textColorLink="@color/custom_blue"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinnerCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:textColor="@color/custom_dark_blue" />
+
+            <TextView
+                android:id="@+id/textViewStatusRequisitionAPI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:text=""
+                android:textColor="@color/custom_dark_blue"
+                android:textColorHighlight="@color/custom_blue"
+                android:textColorLink="@color/custom_blue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonBuscar"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="@color/custom_blue"
+                android:ems="10"
+                android:text="@string/search"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

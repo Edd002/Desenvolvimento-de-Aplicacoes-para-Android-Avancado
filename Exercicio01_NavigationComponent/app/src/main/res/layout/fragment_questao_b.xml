@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".QuestaoBFragment">
+
+        <ImageView
+            android:id="@+id/imageViewFragmentQuestaoB"
+            android:layout_width="208dp"
+            android:layout_height="192dp"
+            android:layout_marginTop="112dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_looks_two_24" />
+
+        <TextView
+            android:id="@+id/text_view_nome_questao_b_fragment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:editable="false"
+            android:text="Qual a versão do Android que introduziu o Material Design?"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewFragmentQuestaoB" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupSelecionarQuestaoBFragment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_nome_questao_b_fragment">
+
+            <RadioButton
+                android:id="@+id/radioButtonQuestaoBResposta1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KitKat" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQuestaoBResposta2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oreo" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQuestaoBResposta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jelly Bean" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQuestaoBResposta4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lolipop" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonQuestaoBFragmentConfirmar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Confirmar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroupSelecionarQuestaoBFragment" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

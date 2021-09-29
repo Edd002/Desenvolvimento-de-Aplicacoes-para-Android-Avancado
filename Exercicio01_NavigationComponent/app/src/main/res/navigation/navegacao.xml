@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegacao"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.app.exercicio01_navigationcomponent.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_questaoAFragment"
+            app:destination="@id/questaoAFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questaoAFragment"
+        android:name="com.example.app.exercicio01_navigationcomponent.QuestaoAFragment"
+        android:label="fragment_questao_a"
+        tools:layout="@layout/fragment_questao_a" >
+        <action
+            android:id="@+id/action_questaoAFragment_to_questaoBFragment"
+            app:destination="@id/questaoBFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questaoBFragment"
+        android:name="com.example.app.exercicio01_navigationcomponent.QuestaoBFragment"
+        android:label="fragment_questao_b"
+        tools:layout="@layout/fragment_questao_b" >
+        <action
+            android:id="@+id/action_questaoBFragment_to_questaoCFragment"
+            app:destination="@id/questaoCFragment" />
+        <argument
+            android:name="argResultado"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/questaoCFragment"
+        android:name="com.example.app.exercicio01_navigationcomponent.QuestaoCFragment"
+        android:label="fragment_questao_c"
+        tools:layout="@layout/fragment_questao_c" >
+        <action
+            android:id="@+id/action_questaoCFragment_to_aprovadoFragment"
+            app:destination="@id/aprovadoFragment"
+            app:popUpTo="@id/startFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_questaoCFragment_to_reprovadoFragment"
+            app:destination="@id/reprovadoFragment"
+            app:popUpTo="@id/startFragment" />
+        <argument android:name="argResultado"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/aprovadoFragment"
+        android:name="com.example.app.exercicio01_navigationcomponent.AprovadoFragment"
+        android:label="fragment_aprovado"
+        tools:layout="@layout/fragment_aprovado" >
+        <argument
+            android:name="argResultado"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_aprovadoFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reprovadoFragment"
+        android:name="com.example.app.exercicio01_navigationcomponent.ReprovadoFragment"
+        android:label="ReprovadoFragment"
+        tools:layout="@layout/fragment_reprovado" >
+        <argument android:name="argResultado"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_reprovadoFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+    </fragment>
+
+</navigation>

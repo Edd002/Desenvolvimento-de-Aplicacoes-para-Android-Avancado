@@ -1,0 +1,2 @@
+rootProject.name = "Exercicio03_WebServiceRetrofit"
+include ':app'

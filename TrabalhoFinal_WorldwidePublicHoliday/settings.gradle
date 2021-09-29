@@ -1,0 +1,2 @@
+rootProject.name = "TrabalhoFinal_WorldwidePublicHoliday"
+include ':app'

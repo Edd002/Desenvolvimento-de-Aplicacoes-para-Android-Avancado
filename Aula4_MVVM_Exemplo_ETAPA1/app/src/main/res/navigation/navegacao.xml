@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegacao"
+    app:startDestination="@id/itensFragment">
+
+    <fragment
+        android:id="@+id/itensFragment"
+        android:name="br.com.fourvrstudios.aula4_mvvm_exemplo.ItensFragment"
+        android:label="fragment_itens"
+        tools:layout="@layout/fragment_itens" >
+        <action
+            android:id="@+id/action_itensFragment_to_checkoutFragment"
+            app:destination="@id/checkoutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/canceladaFragment"
+        android:name="br.com.fourvrstudios.aula4_mvvm_exemplo.CanceladaFragment"
+        android:label="fragment_cancelada"
+        tools:layout="@layout/fragment_cancelada" >
+        <action
+            android:id="@+id/action_canceladaFragment_to_itensFragment"
+            app:destination="@id/itensFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reciboFragment"
+        android:name="br.com.fourvrstudios.aula4_mvvm_exemplo.ReciboFragment"
+        android:label="fragment_recibo"
+        tools:layout="@layout/fragment_recibo" >
+        <action
+            android:id="@+id/action_reciboFragment_to_itensFragment"
+            app:destination="@id/itensFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkoutFragment"
+        android:name="br.com.fourvrstudios.aula4_mvvm_exemplo.CheckoutFragment"
+        android:label="fragment_checkout"
+        tools:layout="@layout/fragment_checkout" >
+        <action
+            android:id="@+id/action_checkoutFragment_to_reciboFragment"
+            app:destination="@id/reciboFragment"
+            app:popUpTo="@id/itensFragment" />
+        <action
+            android:id="@+id/action_checkoutFragment_to_canceladaFragment"
+            app:destination="@id/canceladaFragment"
+            app:popUpTo="@id/itensFragment" />
+    </fragment>
+</navigation>

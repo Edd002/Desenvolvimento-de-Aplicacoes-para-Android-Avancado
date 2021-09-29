@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".QuestaoAFragment">
+
+        <ImageView
+            android:id="@+id/imageViewFragmentQuestaoA"
+            android:layout_width="208dp"
+            android:layout_height="192dp"
+            android:layout_marginTop="112dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_looks_one_24" />
+
+        <TextView
+            android:id="@+id/text_view_nome_questao_a_fragment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:editable="false"
+            android:text="Qual é o valor taxa de assinatura da Google Play para desenvolvedores?"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewFragmentQuestaoA" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupSelecionarQuestaoAFragment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_nome_questao_a_fragment">
+
+            <RadioButton
+                android:id="@+id/radioButtonQuestaoAResposta1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="US$ 25 por ano" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQuestaoAResposta2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="US$ 99 por ano" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQuestaoAResposta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="US$ 25 - taxa única" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQuestaoAResposta4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="US$ 299 por ano" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonQuestaoAFragmentConfirmar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Confirmar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroupSelecionarQuestaoAFragment" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegacao"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.app.trabalhofinal_worldwidepublicholiday.View.StartFragment"
+        android:label="StartFragment"
+        tools:layout="@layout/fragment_start">
+        <action
+            android:id="@+id/action_startFragment_to_yearCountryFragment"
+            app:destination="@id/yearCountryFragment"
+            app:popUpTo="@id/startFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/yearCountryFragment"
+        android:name="com.example.app.trabalhofinal_worldwidepublicholiday.View.YearCountryFragment"
+        android:label="YearCountryFragment"
+        tools:layout="@layout/fragment_year_country">
+        <action
+            android:id="@+id/action_yearCountryFragment_to_calendarFragment"
+            app:destination="@id/calendarFragment"
+            app:popUpTo="@id/yearCountryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.app.trabalhofinal_worldwidepublicholiday.View.CalendarFragment"
+        android:label="CalendarFragment"
+        tools:layout="@layout/fragment_calendar">
+        <argument android:name="holidays"
+            app:argType="com.example.app.trabalhofinal_worldwidepublicholiday.Network.Holiday[]" />
+        <argument
+            android:name="selectedYear"
+            app:argType="integer" />
+    </fragment>
+</navigation>

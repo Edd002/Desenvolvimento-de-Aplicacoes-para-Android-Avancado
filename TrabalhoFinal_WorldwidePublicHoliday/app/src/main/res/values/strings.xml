@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Holiday Now - Buscador Internacional de Feriados</string>
+    <string name="app_title">Holiday Now</string>
+    <string name="app_subtitle">Buscador Internacional de Feriados</string>
+    <string name="app_title_start">Holiday Now\nBusque seus feriados em qualquer ano e em qualquer país</string>
+    <string name="start">Iniciar</string>
+    <string name="select_year">Selecione o ano</string>
+    <string name="select_country">Selecione o país</string>
+    <string name="search">Buscar</string>
+    <string name="back">Voltar</string>
+    <string name="holidays_not_found">Não foram encontrados feriados na busca.</string>
+    <string name="loading_holidays">Carregando feriados...</string>
+    <string name="error_search_holidays">Erro ao buscar feriados.</string>
+    <string name="error_show_holidays">Erro ao exibir feriados.</string>
+    <string name="error_load_countries">Erro ao carregar países. Tente novamente mais tarde.</string>
+    <string name="sucess_load_holidays">Feriados carregados no calendários com sucesso.</string>
+    <string name="holiday_information">Selecione um feriado no calendário para obter informações</string>
+
+    <string name="holiday_type_public">Público</string>
+    <string name="holiday_type_bank">Banco</string>
+    <string name="holiday_type_authorities">Autoridades</string>
+    <string name="holiday_type_optional">Opcional</string>
+    <string name="holiday_type_observance">Observância</string>
+    <string name="holiday_date">Data:</string>
+    <string name="holiday_local_name">Nome local do feriado:</string>
+    <string name="holiday_international_name">Nome internacional do feriado:</string>
+    <string name="holiday_country_code">Código do país:</string>
+    <string name="holiday_every_day_all_year">O feriado é no mesmo dia todos os anos?</string>
+    <string name="holiday_all_country">O feriado é no país inteiro?</string>
+    <string name="holiday_counties">Condados:</string>
+    <string name="holiday_launch_year">Primerio ano de vigência do feriado:</string>
+    <string name="holiday_types">Tipo(s):</string>
+    <string name="holiday_yes">Sim</string>
+    <string name="holiday_no">Não</string>
+    <string name="holiday_n_a">N/A</string>
+
+    <array name="countries_array_of_arrays">
+        <item>@array/AD</item>
+        <item>@array/AL</item>
+        <item>@array/DE</item>
+        <item>@array/AR</item>
+        <item>@array/ZA</item>
+        <item>@array/AT</item>
+        <item>@array/AU</item>
+        <item>@array/AX</item>
+        <item>@array/BB</item>
+        <item>@array/BE</item>
+        <item>@array/BG</item>
+        <item>@array/BJ</item>
+        <item>@array/BO</item>
+        <item>@array/BR</item>
+        <item>@array/BS</item>
+        <item>@array/BW</item>
+        <item>@array/BY</item>
+        <item>@array/BZ</item>
+        <item>@array/CA</item>
+        <item>@array/VA</item>
+        <item>@array/HR</item>
+        <item>@array/KR</item>
+        <item>@array/CH</item>
+        <item>@array/CL</item>
+        <item>@array/CN</item>
+        <item>@array/CO</item>
+        <item>@array/CR</item>
+        <item>@array/CU</item>
+        <item>@array/CY</item>
+        <item>@array/DK</item>
+        <item>@array/EC</item>
+        <item>@array/SV</item>
+        <item>@array/SK</item>
+        <item>@array/SI</item>
+        <item>@array/EUA</item>
+        <item>@array/EE</item>
+        <item>@array/EG</item>
+        <item>@array/ES</item>
+        <item>@array/FI</item>
+        <item>@array/FR</item>
+        <item>@array/GA</item>
+        <item>@array/GD</item>
+        <item>@array/GG</item>
+        <item>@array/GI</item>
+        <item>@array/GL</item>
+        <item>@array/GM</item>
+        <item>@array/GR</item>
+        <item>@array/GT</item>
+        <item>@array/GY</item>
+        <item>@array/HN</item>
+        <item>@array/HT</item>
+        <item>@array/HU</item>
+        <item>@array/ID</item>
+        <item>@array/IE</item>
+        <item>@array/FO</item>
+        <item>@array/IM</item>
+        <item>@array/IS</item>
+        <item>@array/IT</item>
+        <item>@array/JE</item>
+        <item>@array/JM</item>
+        <item>@array/JP</item>
+        <item>@array/LI</item>
+        <item>@array/LS</item>
+        <item>@array/LT</item>
+        <item>@array/LU</item>
+        <item>@array/LV</item>
+        <item>@array/MA</item>
+        <item>@array/MC</item>
+        <item>@array/MD</item>
+        <item>@array/ME</item>
+        <item>@array/MG</item>
+        <item>@array/MK</item>
+        <item>@array/MN</item>
+        <item>@array/MS</item>
+        <item>@array/MT</item>
+        <item>@array/MX</item>
+        <item>@array/MZ</item>
+        <item>@array/NA</item>
+        <item>@array/NE</item>
+        <item>@array/NG</item>
+        <item>@array/NI</item>
+        <item>@array/NL</item>
+        <item>@array/NO</item>
+        <item>@array/NZ</item>
+        <item>@array/PA</item>
+        <item>@array/PE</item>
+        <item>@array/PG</item>
+        <item>@array/PL</item>
+        <item>@array/PR</item>
+        <item>@array/PT</item>
+        <item>@array/PY</item>
+        <item>@array/GB</item>
+        <item>@array/DO</item>
+        <item>@array/RO</item>
+        <item>@array/RU</item>
+        <item>@array/RS</item>
+        <item>@array/SE</item>
+        <item>@array/SJ</item>
+        <item>@array/SM</item>
+        <item>@array/SR</item>
+        <item>@array/CZ</item>
+        <item>@array/TN</item>
+        <item>@array/TR</item>
+        <item>@array/UA</item>
+        <item>@array/UY</item>
+        <item>@array/VE</item>
+        <item>@array/VN</item>
+        <item>@array/ZW</item>
+    </array>
+
+    <array name="AD">
+        <item>AD</item>
+        <item>Andorra</item>
+    </array>
+    <array name="AL">
+        <item>AL</item>
+        <item>Albânia</item>
+    </array>
+    <array name="DE">
+        <item>DE</item>
+        <item>Alemanha</item>
+    </array>
+    <array name="AR">
+        <item>AR</item>
+        <item>Argentina</item>
+    </array>
+    <array name="ZA">
+        <item>ZA</item>
+        <item>África do Sul</item>
+    </array>
+    <array name="AT">
+        <item>AT</item>
+        <item>Áustria</item>
+    </array>
+    <array name="AU">
+        <item>AU</item>
+        <item>Austrália</item>
+    </array>
+    <array name="AX">
+        <item>AX</item>
+        <item>Ilhas Aland</item>
+    </array>
+    <array name="BB">
+        <item>BB</item>
+        <item>Barbados</item>
+    </array>
+    <array name="BE">
+        <item>BE</item>
+        <item>Bélgica</item>
+    </array>
+    <array name="BG">
+        <item>BG</item>
+        <item>Bulgária</item>
+        </array>
+    <array name="BJ">
+        <item>BJ</item>
+        <item>Benin</item>
+    </array>
+    <array name="BO">
+        <item>BO</item>
+        <item>Bolívia</item>
+    </array>
+    <array name="BR">
+        <item>BR</item>
+        <item>Brasil</item>
+        </array>
+    <array name="BS">
+        <item>BS</item>
+        <item>Bahamas</item>
+    </array>
+    <array name="BW">
+        <item>BW</item>
+        <item>Botswana</item>
+    </array>
+    <array name="BY">
+        <item>BY</item>
+        <item>Bielo-Rússia</item>
+    </array>
+    <array name="BZ">
+        <item>BZ</item>
+        <item>Belize</item>
+    </array>
+    <array name="CA">
+        <item>CA</item>
+        <item>Canadá</item>
+    </array>
+    <array name="VA">
+        <item>VA</item>
+        <item>Cidade do Vaticano</item>
+    </array>
+    <array name="HR">
+        <item>HR</item>
+        <item>Croácia</item>
+    </array>
+    <array name="KR">
+           <item>KR</item>
+        <item>Coreia do Sul</item>
+    </array>
+    <array name="CH">
+        <item>CH</item>
+        <item>Suíça</item>
+    </array>
+    <array name="CL">
+        <item>CL</item>
+        <item>Chile</item>
+    </array>
+    <array name="CN">
+        <item>CN</item>
+        <item>China</item>
+    </array>
+    <array name="CO">
+        <item>CO</item>
+        <item>Colômbia</item>
+    </array>
+    <array name="CR">
+           <item>CR</item>
+        <item>Costa Rica</item>
+    </array>
+    <array name="CU">
+        <item>CU</item>
+        <item>Cuba</item>
+    </array>
+    <array name="CY">
+        <item>CY</item>
+        <item>Chipre</item>
+    </array>
+    <array name="DK">
+        <item>DK</item>
+        <item>Dinamarca</item>
+    </array>
+    <array name="EC">
+        <item>EC</item>
+        <item>Equador</item>
+    </array>
+    <array name="SV">
+        <item>SV</item>
+        <item>El Salvador</item>
+    </array>
+    <array name="SK">
+        <item>SK</item>
+        <item>Eslováquia</item>
+    </array>
+    <array name="SI">
+        <item>SI</item>
+           <item>Eslovênia</item>
+    </array>
+    <array name="EUA">
+        <item>EUA</item>
+        <item>Estados Unidos</item>
+    </array>
+    <array name="EE">
+        <item>EE</item>
+        <item>Estônia</item>
+    </array>
+    <array name="EG">
+        <item>EG</item>
+        <item>Egito</item>
+    </array>
+    <array name="ES">
+        <item>ES</item>
+        <item>Espanha</item>
+    </array>
+    <array name="FI">
+        <item>FI</item>
+        <item>Finlândia</item>
+    </array>
+    <array name="FR">
+        <item>FR</item>
+        <item>França</item>
+        </array>
+    <array name="GA">
+        <item>GA</item>
+        <item>Gabão</item>
+    </array>
+    <array name="GD">
+        <item>GD</item>
+        <item>Grenada</item>
+    </array>
+    <array name="GG">
+        <item>GG</item>
+        <item>Guernsey</item>
+    </array>
+    <array name="GI">
+        <item>GI</item>
+        <item>Gibraltar</item>
+    </array>
+    <array name="GL">
+        <item>GL</item>
+        <item>Groenlândia</item>
+    </array>
+    <array name="GM">
+        <item>GM</item>
+        <item>Gâmbia</item>
+    </array>
+    <array name="GR">
+        <item>GR</item>
+        <item>Grécia</item>
+    </array>
+    <array name="GT">
+        <item>GT</item>
+        <item>Guatemala</item>
+    </array>
+    <array name="GY">
+        <item>GY</item>
+        <item>Guiana</item>
+    </array>
+    <array name="HN">
+        <item>HN</item>
+        <item>Honduras</item>
+    </array>
+    <array name="HT">
+        <item>HT</item>
+        <item>Haiti</item>
+    </array>
+    <array name="HU">
+        <item>HU</item>
+        <item>Hungria</item>
+    </array>
+    <array name="ID">
+        <item>ID</item>
+        <item>Indonésia</item>
+    </array>
+    <array name="IE">
+        <item>IE</item>
+        <item>Irlanda</item>
+    </array>
+    <array name="FO">
+        <item>FO</item>
+        <item>Ilhas Faroé</item>
+    </array>
+    <array name="IM">
+        <item>IM</item>
+        <item>Ilha de Man</item>
+    </array>
+    <array name="IS">
+        <item>IS</item>
+        <item>Islândia</item>
+    </array>
+    <array name="IT">
+        <item>IT</item>
+        <item>Itália</item>
+    </array>
+    <array name="JE">
+        <item>JE</item>
+        <item>Jersey</item>
+    </array>
+    <array name="JM">
+        <item>JM</item>
+        <item>Jamaica</item>
+        </array>
+    <array name="JP">
+        <item>JP</item>
+        <item>Japão</item>
+    </array>
+    <array name="LI">
+        <item>LI</item>
+        <item>Liechtenstein</item>
+    </array>
+    <array name="LS">
+        <item>LS</item>
+        <item>Lesoto</item>
+    </array>
+    <array name="LT">
+        <item>LT</item>
+        <item>Lituânia</item>
+    </array>
+    <array name="LU">
+        <item>LU</item>
+        <item>Luxemburgo</item>
+    </array>
+    <array name="LV">
+        <item>LV</item>
+        <item>Letônia</item>
+        </array>
+    <array name="MA">
+        <item>MA</item>
+        <item>Marrocos</item>
+    </array>
+    <array name="MC">
+        <item>MC</item>
+        <item>Mônaco</item>
+    </array>
+    <array name="MD">
+        <item>MD</item>
+        <item>Moldávia</item>
+    </array>
+    <array name="ME">
+        <item>ME</item>
+        <item>Montenegro</item>
+    </array>
+    <array name="MG">
+        <item>MG</item>
+        <item>Madagascar</item>
+    </array>
+    <array name="MK">
+        <item>MK</item>
+        <item>Macedônia do Norte</item>
+    </array>
+    <array name="MN">
+        <item>MN</item>
+        <item>Mongólia</item>
+    </array>
+    <array name="MS">
+        <item>MS</item>
+        <item>Montserrat</item>
+    </array>
+    <array name="MT">
+        <item>MT</item>
+        <item>Malta</item>
+    </array>
+    <array name="MX">
+        <item>MX</item>
+        <item>México</item>
+    </array>
+    <array name="MZ">
+        <item>MZ</item>
+        <item>Moçambique</item>
+    </array>
+    <array name="NA">
+        <item>NA</item>
+        <item>Namíbia</item>
+    </array>
+    <array name="NE">
+        <item>NE</item>
+        <item>Níger</item>
+    </array>
+    <array name="NG">
+        <item>NG</item>
+        <item>Nigéria</item>
+    </array>
+    <array name="NI">
+        <item>NI</item>
+        <item>Nicarágua</item>
+    </array>
+    <array name="NL">
+        <item>NL</item>
+        <item>Holanda</item>
+    </array>
+    <array name="NO">
+        <item>NO</item>
+        <item>Noruega</item>
+    </array>
+    <array name="NZ">
+        <item>NZ</item>
+        <item>Nova Zelândia</item>
+    </array>
+    <array name="PA">
+        <item>PA</item>
+        <item>Panamá</item>
+        </array>
+    <array name="PE">
+        <item>PE</item>
+        <item>Peru</item>
+    </array>
+    <array name="PG">
+        <item>PG</item>
+        <item>Papua Nova Guiné</item>
+    </array>
+    <array name="PL">
+        <item>PL</item>
+        <item>Polônia</item>
+    </array>
+    <array name="PR">
+        <item>PR</item>
+        <item>Porto Rico</item>
+    </array>
+    <array name="PT">
+        <item>PT</item>
+        <item>Portugal</item>
+    </array>
+    <array name="PY">
+        <item>PY</item>
+        <item>Paraguai</item>
+    </array>
+    <array name="GB">
+        <item>GB</item>
+        <item>Reino Unido</item>
+    </array>
+    <array name="DO">
+        <item>DO</item>
+        <item>República Dominicana</item>
+    </array>
+    <array name="RO">
+        <item>RO</item>
+        <item>Romênia</item>
+    </array>
+    <array name="RU">
+        <item>RU</item>
+        <item>Rússia</item>
+    </array>
+    <array name="RS">
+        <item>RS</item>
+        <item>Sérvia</item>
+    </array>
+    <array name="SE">
+        <item>SE</item>
+        <item>Suécia</item>
+    </array>
+    <array name="SJ">
+        <item>SJ</item>
+        <item>Svalbard e Jan Mayen</item>
+    </array>
+    <array name="SM">
+        <item>SM</item>
+        <item>San Marino</item>
+    </array>
+    <array name="SR">
+        <item>SR</item>
+        <item>Suriname</item>
+    </array>
+    <array name="CZ">
+        <item>CZ</item>
+        <item>Tcheca</item>
+    </array>
+    <array name="TN">
+        <item>TN</item>
+        <item>Tunísia</item>
+    </array>
+    <array name="TR">
+        <item>TR</item>
+        <item>Turquia</item>
+    </array>
+    <array name="UA">
+        <item>UA</item>
+        <item>Ucrânia</item>
+    </array>
+    <array name="UY">
+        <item>UY</item>
+        <item>Uruguai</item>
+    </array>
+    <array name="VE">
+        <item>VE</item>
+        <item>Venezuela</item>
+    </array>
+    <array name="VN">
+        <item>VN</item>
+        <item>Vietnã</item>
+    </array>
+    <array name="ZW">
+        <item>ZW</item>
+        <item>Zimbábue</item>
+    </array>
+</resources>
